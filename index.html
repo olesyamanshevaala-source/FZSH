@@ -29,9 +29,10 @@
   table.blocks th, table.smeta th { background:var(--blue-900); color:#fff; text-align:left; padding:9px 11px; }
   table.blocks td, table.smeta td { padding:8px 11px; border-bottom:1px solid #e4eaf5; vertical-align:top; }
   table.blocks tr:nth-child(even) td, table.smeta tr:nth-child(even) td { background:var(--blue-50); }
-  table.smeta td.num { text-align:right; white-space:nowrap; }
+  table.smeta td { color:var(--ink); }
+  table.smeta td.num { text-align:right; white-space:nowrap; color:var(--ink); }
   table.smeta td.note { color:#8a93a8; font-size:12.5px; font-style:italic; }
-  table.smeta tr.total td { background:var(--blue-900); color:var(--yellow); font-weight:700; border:none; }
+  table.smeta tr.total td, table.smeta tr.total td.num { background:var(--blue-900) !important; color:var(--yellow) !important; font-weight:700; border:none; }
   .plan { margin-top:20px; text-align:center; }
   .plan svg { max-width:100%; height:auto; border:1px solid var(--blue-100); border-radius:8px; background:#fff; }
   .cap { text-align:center; font-size:12.5px; color:var(--muted); font-style:italic; margin-top:8px; }
@@ -177,6 +178,7 @@
 
 <tr><td colspan="4" style="background:#dbeafe;font-weight:700;color:#1e3a8a;">Кулинария — механическое / заготовка</td></tr>
 <tr><td>Слайсер</td><td style="text-align:center;">2</td><td class="num">1 000 000</td><td class="num">2 000 000</td></tr>
+<tr><td>Слайсер для нарезки мяса</td><td style="text-align:center;">1</td><td class="num">1 500 000</td><td class="num">1 500 000</td></tr>
 <tr><td>Мясорубка</td><td style="text-align:center;">1</td><td class="num">7 000 000</td><td class="num">7 000 000</td></tr>
 <tr><td>Фаршемешалка</td><td style="text-align:center;">1</td><td class="num">2 000 000</td><td class="num">2 000 000</td></tr>
 <tr><td>Оборудование для формовки котлет</td><td style="text-align:center;">1</td><td class="num">6 000 000</td><td class="num">6 000 000</td></tr>
@@ -196,13 +198,15 @@
 <tr><td>Тестоделитель-округлитель</td><td style="text-align:center;">1</td><td class="num">5 000 000</td><td class="num">5 000 000</td></tr>
 <tr><td>Тестораскаточная машина</td><td style="text-align:center;">1</td><td class="num">1 500 000</td><td class="num">1 500 000</td></tr>
 <tr><td>Дозатор воды (пекарня) с терморежимом</td><td style="text-align:center;">1</td><td class="num">2 000 000</td><td class="num">2 000 000</td></tr>
+<tr><td>Багет-закатчик</td><td style="text-align:center;">1</td><td class="num">2 000 000</td><td class="num">2 000 000</td></tr>
+<tr><td>Расстоечные шкафы</td><td style="text-align:center;">1</td><td class="num">7 000 000</td><td class="num">7 000 000</td></tr>
 <tr><td>Дозатор (пекарня)</td><td style="text-align:center;">1</td><td class="num">1 500 000</td><td class="num">1 500 000</td></tr>
 
 <tr><td colspan="4" style="background:#dbeafe;font-weight:700;color:#1e3a8a;">Общее оборудование</td></tr>
 <tr><td>Весы (на всё производство, комплект)</td><td style="text-align:center;">1</td><td class="num">4 000 000</td><td class="num">4 000 000</td></tr>
 <tr><td>ТМЦ-инвентарь (гастроёмкости, ножи, доски, тележки, посуда, шкафы, офис и пр.)</td><td style="text-align:center;">1</td><td class="num">30 000 000</td><td class="num">30 000 000</td></tr>
 
-<tr class="total"><td>ИТОГО (ориентировочно)</td><td></td><td></td><td class="num">283 700 000</td></tr>
+<tr class="total"><td>ИТОГО (ориентировочно)</td><td></td><td></td><td class="num">294 200 000</td></tr>
 </table>
 
 <p style="font-size:12px; color:#888; margin-top:24px;">* Все расчёты и суммы в этой записке — прогнозные оценки для предварительного планирования. Точные цифры по оборудованию и СМР можно будет получить только после разработки рабочих проектов и составления рабочих смет.</p>
